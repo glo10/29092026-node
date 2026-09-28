@@ -1,0 +1,17 @@
+# Exercices
+
+1. [Exercice 2.1 : *NPM*](./2.1.md)
+2. [Exercice 3.1 : lecture/écriture](./3.1.md)
+3. [Exercice 3.2 : entrée/sortie terminal](./3.2.md)
+4. [Exercice 3.3 : serveur web avec du *JSON*](./3.3.md)
+5. [Exercice 3.4 : serveur Web *HTTPS* avec les fichiers *HTML*](./3.4.md)
+6. [Exercice 3.5 : processus fils](./3.5.md)
+7. [Exercice 4.1 : gestionnaire de routes](./4.1.md)
+8. [Exercice 5.1 : moteur de *template*](./5.1.md)
+9. [Exercice 5.2 : middlewares](./5.2.md)
+10. [Exercice 5.3 : *API* ligue de champions](./5.3.md)
+11. [Exercice 6.1 : *MongoDB et Mongoose*](./6.1.md)
+12. [Exercice 7.1 : tests unitaires avec *Vitest*](./7.1.md)
+13. [Exercice 7.2 : tests d'intégration des routes avec *Supertest*](./7.2.md)
+14. [Exercice 7.3 : tests end-to-end avec *Cypress*](./7.3.md)
+15. [Exercice 8.1 : gestion des exceptions try/catch/finally et throw](./8.1.md)

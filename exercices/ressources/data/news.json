@@ -1,0 +1,637 @@
+{
+  "rss": {
+    "$": {
+      "version": "2.0",
+      "xmlns:atom": "http://www.w3.org/2005/Atom",
+      "xmlns:media": "http://search.yahoo.com/mrss/",
+      "xmlns:content": "http://purl.org/rss/1.0/modules/content/"
+    },
+    "channel": {
+      "title": "International : Toute l'actualité sur Le Monde.fr.",
+      "description": "International  - Découvrez gratuitement tous les articles, les vidéos et les infographies de la rubrique International sur Le Monde.fr.",
+      "copyright": "Le Monde - L'utilisation des flux RSS du Monde.fr est réservée à un usage strictement personnel, non professionnel et non collectif. Toute autre exploitation doit faire l'objet d'une autorisation et donner lieu au versement d'une rémunération. Contact : syndication@lemonde.fr",
+      "link": "https://www.lemonde.fr/international/rss_full.xml",
+      "pubDate": "Mon, 25 May 2026 14:55:52 +0000",
+      "language": "fr",
+      "atom:link": {
+        "$": {
+          "href": "https://www.lemonde.fr/international/rss_full.xml",
+          "rel": "self",
+          "type": "application/rss+xml"
+        }
+      },
+      "item": [
+        {
+          "title": "Le pape Léon XIV reconnaît le retard de l'Eglise à condamner l'esclavage",
+          "pubDate": "Mon, 25 May 2026 16:05:47 +0200",
+          "description": "Dans sa première encyclique, le pape Léon XIV a reconnu pour la première fois la responsabilité directe de l'Eglise catholique dans la légitimation de l'esclavage au cours de l'histoire, et a demandé « sincèrement pardon » au nom de l'Eglise.",
+          "guid": {
+            "_": "https://www.lemonde.fr/international/article/2026/05/25/le-pape-leon-xiv-reconnait-le-retard-de-l-eglise-a-condamner-l-esclavage_6693663_3210.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/international/article/2026/05/25/le-pape-leon-xiv-reconnait-le-retard-de-l-eglise-a-condamner-l-esclavage_6693663_3210.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/25/688/0/8256/4128/644/322/60/0/59c2baf_ftp-1-6amzpdtivld6-5139283-01-06.jpg"
+            },
+            "media:description": {
+              "_": "Le pape Léon XIV, au Vatican, le 25 mai 2026. ",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "ALBERTO PIZZOLI / AFP",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "« L'Europe ne peut plus être l'amortisseur des déséquilibres mondiaux »",
+          "pubDate": "Mon, 25 May 2026 16:03:02 +0200",
+          "updated": "Mon, 25 May 2026 16:27:19 +0200",
+          "description": "Face à la montée du protectionnisme, le professeur de droit Julien Chaisse explique, dans une tribune au « Monde », que l'Union européenne ne peut plus laisser son marché absorber sans conditions les chocs venus des autres grandes puissances que sont la Chine et les Etats-Unis.",
+          "guid": {
+            "_": "https://www.lemonde.fr/idees/article/2026/05/25/l-europe-ne-peut-plus-etre-l-amortisseur-des-desequilibres-mondiaux_6693662_3232.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/idees/article/2026/05/25/l-europe-ne-peut-plus-etre-l-amortisseur-des-desequilibres-mondiaux_6693662_3232.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/02/25/125/0/1500/750/644/322/60/0/74736ce_upload-1-1q1lcx7t5zad-frame-1190.jpg"
+            }
+          }
+        },
+        {
+          "title": "EN DIRECT, guerre en Ukraine : la Russie appelle ressortissants étrangers et diplomates à quitter Kiev avant de nouvelles frappes",
+          "pubDate": "Mon, 25 May 2026 15:53:14 +0200",
+          "updated": "Mon, 25 May 2026 16:02:38 +0200",
+          "description": "Le ministère des affaires étrangères russe a affirmé que les forces russes allaient mener des frappes « systématiques » contre les entreprises du complexe militaro-industriel ukrainien à Kiev, notamment les sites liés à la conception, à la production et à l'utilisation de drones militaires.",
+          "guid": {
+            "_": "https://www.lemonde.fr/international/live/2026/05/25/en-direct-guerre-en-ukraine-moscou-appelle-ressortissants-etrangers-et-diplomates-a-quitter-kiev-avant-de-nouvelles-frappes-russes_6693162_3210.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/international/live/2026/05/25/en-direct-guerre-en-ukraine-moscou-appelle-ressortissants-etrangers-et-diplomates-a-quitter-kiev-avant-de-nouvelles-frappes-russes_6693162_3210.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/25/435/0/5224/2612/644/322/60/0/67a6291_ftp-1-jp6zmunyfsfx-2026-05-25t131208z-926561931-rc2agla7dqcd-rtrmadp-3-ukraine-crisis-attack-kyiv-museum.JPG"
+            },
+            "media:description": {
+              "_": "Dans l'immeuble qui abrite le Musée de Tchernobyl, à Kiev, après des bombardements russes, le 25 mai 2026. ",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "ALINA SMUTKO / REUTERS",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "Gaza : « La disparition de la quasi totalité des cadres du Hamas ouvre la voie à l'émergence d'une nouvelle génération de dirigeants »",
+          "pubDate": "Mon, 25 May 2026 15:50:24 +0200",
+          "description": "Négociations à l'arrêt, élections en cours, élimination des cadres du Hamas par Israël : la politiste Leïla Seurat, spécialiste de la question palestinienne, revient sur les perspectives pour le mouvement islamiste dans la bande de Gaza.",
+          "guid": {
+            "_": "https://www.lemonde.fr/international/article/2026/05/25/gaza-la-disparition-de-la-quasi-totalite-des-cadres-du-hamas-ouvre-la-voie-a-l-emergence-d-une-nouvelle-generation-de-dirigeants_6693660_3210.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/international/article/2026/05/25/gaza-la-disparition-de-la-quasi-totalite-des-cadres-du-hamas-ouvre-la-voie-a-l-emergence-d-une-nouvelle-generation-de-dirigeants_6693660_3210.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/16/459/0/5500/2750/644/322/60/0/3f72791_ftp-1-qyjbrt7n0o3x-2026-05-16t094106z-1585429862-rc29alakzhav-rtrmadp-3-israel-palestinians-gaza-hamas.JPG"
+            },
+            "media:description": {
+              "_": "Les corps d'un des commandants de Brigades Ezzedine Al-Qassam, la branche armée du Hamas, Ezzedine Al-Haddad, de son épouse et de sa fille, tués vendredi 15 mai par d'une frappe israélienne, lors d'une cérémonie funéraire à Gaza, le 16 mai 2026.",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "Dawoud Abu Alkas/REUTERS",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "EN DIRECT, guerre au Moyen-Orient : Donald Trump demande la signature des accords d'Abraham par l'Arabie saoudite et le Qatar dans le cadre du plan de paix avec l'Iran",
+          "pubDate": "Mon, 25 May 2026 15:48:51 +0200",
+          "updated": "Mon, 25 May 2026 16:00:49 +0200",
+          "description": "Le 15 septembre 2020, les Emirats arabes unis, Bahreïn et Israël s'entendaient à Washington afin d'instaurer des relations officielles entre les deux émirats du golfe Arabo-Persique et l'Etat hébreu.",
+          "guid": {
+            "_": "https://www.lemonde.fr/international/live/2026/05/25/en-direct-guerre-au-moyen-orient-donald-trump-demande-la-signature-des-accords-d-abraham-par-l-arabie-saoudite-et-le-qatar-dans-le-cadre-du-plan-de-paix-avec-l-iran_6691823_3210.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/international/live/2026/05/25/en-direct-guerre-au-moyen-orient-donald-trump-demande-la-signature-des-accords-d-abraham-par-l-arabie-saoudite-et-le-qatar-dans-le-cadre-du-plan-de-paix-avec-l-iran_6691823_3210.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/23/276/0/3321/1660/644/322/60/0/ff62cb2_ftp-1-68ezhqzak7mo-5125960-01-06.jpg"
+            },
+            "media:description": {
+              "_": "Donald Trump, à la Maison Blanche, le 8 mai 2026. ",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "JIM WATSON / AFP",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "Au Cambodge, le principal opposant, Kem Sokha, gracié, après sa condamnation pour trahison en 2023",
+          "pubDate": "Mon, 25 May 2026 15:22:03 +0200",
+          "updated": "Mon, 25 May 2026 15:35:02 +0200",
+          "description": "Le cofondateur du Parti du sauvetage national du Cambodge avait été arrêté en 2017 et accusé d'avoir comploté avec des agents étrangers dans le but de renverser le gouvernement de Hun Sen. Ce qu'il a toujours contesté.",
+          "guid": {
+            "_": "https://www.lemonde.fr/international/article/2026/05/25/au-cambodge-le-principal-opposant-kem-sokha-gracie-apres-sa-condamnation-pour-trahison-en-2023_6693657_3210.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/international/article/2026/05/25/au-cambodge-le-principal-opposant-kem-sokha-gracie-apres-sa-condamnation-pour-trahison-en-2023_6693657_3210.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/25/275/0/3154/1577/644/322/60/0/a71628b_ftp-1-ixdajlxfisc2-5139473-01-06.jpg"
+            },
+            "media:description": {
+              "_": "Kem Sokha, peu avant sa condamnation pour trahison, à Phnomh Penh, en 2023.",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "TANG CHHIN SOTHY / AFP",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "Tunisie : l'avocate et chroniqueuse Sonia Dahmani condamnée à deux ans de prison pour des déclarations sur les prisons du pays",
+          "pubDate": "Mon, 25 May 2026 15:16:24 +0200",
+          "updated": "Mon, 25 May 2026 15:27:56 +0200",
+          "description": "Sonia Dahmani, 60 ans, très critique du président tunisien, Kaïs Saïed, est poursuivie dans cinq affaires, toutes liées à des déclarations ou publications dans les médias.",
+          "guid": {
+            "_": "https://www.lemonde.fr/international/article/2026/05/25/tunisie-l-avocate-et-chroniqueuse-sonia-dahmani-condamnee-a-deux-ans-de-prison-pour-des-declarations-sur-les-prisons-du-pays_6693656_3210.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/international/article/2026/05/25/tunisie-l-avocate-et-chroniqueuse-sonia-dahmani-condamnee-a-deux-ans-de-prison-pour-des-declarations-sur-les-prisons-du-pays_6693656_3210.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/25/516/0/6192/3096/644/322/60/0/ac76593_upload-1-jtwb5fgcupsx-000-86dq2gd.jpg"
+            },
+            "media:description": {
+              "_": "Sonia Dahmani à son domicile de Tunis, le 27 novembre 2025.",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "FETHI BELAID / AFP",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "Au Royaume-Uni, un paysage politique marqué par la fin du duel entre conservateurs et travaillistes",
+          "pubDate": "Mon, 25 May 2026 15:00:08 +0200",
+          "description": "Alors que le pays a longtemps été l'un des sanctuaires européens du bipartisme, les élections locales du 7 mai ont parachevé la révolution silencieuse du multipartisme, qui n'a cessé de croître depuis le Brexit.",
+          "guid": {
+            "_": "https://www.lemonde.fr/idees/article/2026/05/25/au-royaume-uni-un-paysage-politique-marque-par-la-fin-du-duel-entre-conservateurs-et-travaillistes_6693654_3232.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/idees/article/2026/05/25/au-royaume-uni-un-paysage-politique-marque-par-la-fin-du-duel-entre-conservateurs-et-travaillistes_6693654_3232.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/14/176/0/7553/3776/644/322/60/0/72c805a_ftp-1-cwaxkb32f3w6-f86f4244ddc64f79b745fd1f6318f80d-0-70031035763e4bb6b3cb04d38472d241.jpg"
+            },
+            "media:description": {
+              "_": "A Londres, le 14 mai 2026.",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "Kin Cheung / AP",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "Grèce : vingt nouvelles arrestations dans une affaire de fraude aux subventions agricoles européennes",
+          "pubDate": "Mon, 25 May 2026 14:23:44 +0200",
+          "updated": "Mon, 25 May 2026 14:52:00 +0200",
+          "description": "L'enquête concerne le détournement de subventions agricoles de l'Union européenne à des agriculteurs grecs, pour un préjudice estimé à plus de 19 millions d'euros. En octobre, des dizaines de personnes avaient déjà été arrêtées dans tout le pays.",
+          "guid": {
+            "_": "https://www.lemonde.fr/international/article/2026/05/25/vingt-nouvelles-arrestations-en-grece-dans-une-affaire-de-fraude-aux-subventions-agricoles-europeennes_6693651_3210.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/international/article/2026/05/25/vingt-nouvelles-arrestations-en-grece-dans-une-affaire-de-fraude-aux-subventions-agricoles-europeennes_6693651_3210.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/25/501/0/6000/3000/644/322/60/0/1c6f3c4_ftp-1-ytjvbsxoh9nw-2026-05-25t092507z-462206413-rc2auhae6l4g-rtrmadp-3-greece-arrests-farm-fraud.JPG"
+            },
+            "media:description": {
+              "_": "La police grecque protège le ministère d'eune l'agriculture, lors de manifestation d'agriculteurs liée aux subventions agricoles européennes, le 11 novembre 2025.",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "LOUISA GOULIAMAKI/ REUTERS",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "BYD, le constructeur automobile chinois, relance l'économie du nord-est du Brésil à marche forcée",
+          "pubDate": "Mon, 25 May 2026 14:00:11 +0200",
+          "description": "A Camaçari, dans l'Etat de Bahia, l'installation d'une usine sur le site où opérait Ford suscite un fort espoir de reprise. Mais les conditions de travail des ouvriers déclenchent déjà de vives critiques.",
+          "guid": {
+            "_": "https://www.lemonde.fr/economie/article/2026/05/25/byd-le-constructeur-automobile-chinois-relance-l-economie-du-nord-est-du-bresil-a-marche-forcee_6693648_3234.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/economie/article/2026/05/25/byd-le-constructeur-automobile-chinois-relance-l-economie-du-nord-est-du-bresil-a-marche-forcee_6693648_3234.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/22/227/0/3616/1808/644/322/60/0/4f54199_upload-1-45wadqda5hzs-2025-11-21t091311z-1458501713-rc2f8haft58k-rtrmadp-3-byd-brazil.JPG"
+            },
+            "media:description": {
+              "_": "Vue aérienne de l'usine BYD, à Camaçari (Etat de Bahia), au Brésil, le 9 octobre 2025.",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "JOA SOUZA/REUTERS",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "Ebola : deux nouveaux cas confirmés en Ouganda, selon le ministère de la santé",
+          "pubDate": "Mon, 25 May 2026 13:22:50 +0200",
+          "description": "Cela porte à sept le nombre de cas recensés en Ouganda depuis le début de l'actuelle épidémie de fièvre hémorragique à virus Ebola, déclarée le 15 mai en République démocratique du Congo voisine.",
+          "guid": {
+            "_": "https://www.lemonde.fr/afrique/article/2026/05/25/ebola-deux-nouveaux-cas-confirmes-en-ouganda-selon-le-ministere-de-la-sante_6693645_3212.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/afrique/article/2026/05/25/ebola-deux-nouveaux-cas-confirmes-en-ouganda-selon-le-ministere-de-la-sante_6693645_3212.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/21/267/0/4180/2090/644/322/60/0/71cfa83_ftp-1-zi3ucxe94uw0-2026-05-21t131151z-406720059-rc2hdlawwewx-rtrmadp-3-health-ebola-uganda.JPG"
+            },
+            "media:description": {
+              "_": "A Kampala (Ouganda), le 21 mai 2026. ",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "Abubaker Lubowa/REUTERS",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "Philippines : des « signes de vie » détectés, près de deux jours après l'effondrement d'un chantier qui a fait quatre morts et 17 disparus",
+          "pubDate": "Mon, 25 May 2026 12:52:35 +0200",
+          "updated": "Mon, 25 May 2026 13:00:29 +0200",
+          "description": "Selon les autorités municipales de Manille, 26 personnes ont été secourues et se trouvent dans un état stable à la suite de l'effondrement d'un bâtiment en construction à Angeles, au nord de la capitale. Les opérations continuent, lundi en fin d'après-midi.",
+          "guid": {
+            "_": "https://www.lemonde.fr/international/article/2026/05/25/philippines-des-signes-de-vie-detectes-pres-de-deux-jours-apres-l-effondrement-d-un-chantier-qui-a-fait-quatre-morts-et-17-disparus_6693236_3211.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/international/article/2026/05/25/philippines-des-signes-de-vie-detectes-pres-de-deux-jours-apres-l-effondrement-d-un-chantier-qui-a-fait-quatre-morts-et-17-disparus_6693236_3211.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/24/518/0/6125/3062/644/322/60/0/8afbdbd_ftp-1-nhr5xzx1nake-5129405-01-06.jpg"
+            },
+            "media:description": {
+              "_": "Evacuation du corps d'un Malaisien tué dans l'effondrement d'un immeuble, sur un chantier d'Angeles, au nord de Manille, le 24 mai 2026.",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "TED ALJIBE/AFP",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "Au Laos, sept personnes piégées depuis cinq jours dans une grotte inondée",
+          "pubDate": "Mon, 25 May 2026 12:45:12 +0200",
+          "updated": "Mon, 25 May 2026 12:57:38 +0200",
+          "description": "L'opération de secours mobilise une centaine de personnes, parmi lesquelles des plongeurs spécialisés qui avaient pris part, en 2018, au sauvetage d'une équipe de football coincée dans une grotte inondée en Thaïlande.",
+          "guid": {
+            "_": "https://www.lemonde.fr/international/article/2026/05/25/au-laos-sept-personnes-piegees-depuis-cinq-jours-dans-une-grotte-inondee_6693644_3210.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/international/article/2026/05/25/au-laos-sept-personnes-piegees-depuis-cinq-jours-dans-une-grotte-inondee_6693644_3210.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/25/161/0/1144/572/644/322/60/0/21ee4d3_upload-1-35gczb885tj7-capture-d-e-cran-2026-05-25-a-12-00-41.png"
+            },
+            "media:description": {
+              "_": "Carte de situation.",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "openstreetmaps/« Le Monde »",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "Dans l'ouest de l'Ukraine, week-end de détente autour d'une course de drones pour des soldats venus du front",
+          "pubDate": "Mon, 25 May 2026 12:30:07 +0200",
+          "description": "Fabricants d'armes et militaires joignent l'utile à l'agréable dans une compétition de drones favorisant l'échange et le retour d'expériences du terrain. Une sous-culture guerrière émerge, signe d'une militarisation de l'Ukraine sur le long terme.",
+          "guid": {
+            "_": "https://www.lemonde.fr/international/article/2026/05/25/dans-l-ouest-de-l-ukraine-week-end-de-detente-autour-d-une-course-de-drones-pour-des-soldats-venus-du-front_6693643_3210.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/international/article/2026/05/25/dans-l-ouest-de-l-ukraine-week-end-de-detente-autour-d-une-course-de-drones-pour-des-soldats-venus-du-front_6693643_3210.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/21/457/0/5481/2740/644/322/60/0/f94b981_upload-1-khju8ela3txu-drones-races-editorial-023.jpg"
+            },
+            "media:description": {
+              "_": "Lors de l'évènement Drones sauvages, une compétition de pilotes de drones militaires et un salon consacré à la technologie des drones, à Trouskavets (Ukraine), le 20 mai 2026.",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "JEDRZEJ NOWICKI POUR «LE MONDE»",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "« Avec son encyclique, Léon XIV ne se borne pas à lancer qu'“un autre monde est possible” : il nous appelle à bâtir cet autre monde »",
+          "pubDate": "Mon, 25 May 2026 12:00:01 +0200",
+          "updated": "Mon, 25 May 2026 14:20:57 +0200",
+          "description": "Alors que le pape publie, lundi, la première encyclique de son pontificat, « Magnifica humanitas », l'historien du catholicisme Alberto Melloni analyse, dans une tribune au « Monde », la portée de ce texte original, centré sur l'intelligence artificielle.",
+          "guid": {
+            "_": "https://www.lemonde.fr/le-monde-des-religions/article/2026/05/25/avec-son-encyclique-leon-xiv-ne-se-borne-pas-a-lancer-qu-un-autre-monde-est-possible-il-nous-appelle-a-batir-cet-autre-monde_6693640_6038514.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/le-monde-des-religions/article/2026/05/25/avec-son-encyclique-leon-xiv-ne-se-borne-pas-a-lancer-qu-un-autre-monde-est-possible-il-nous-appelle-a-batir-cet-autre-monde_6693640_6038514.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/23/688/0/8256/4128/644/322/60/0/6785ea6_ftp-1-wbolym7r5ken-5119783-01-06.jpg"
+            },
+            "media:description": {
+              "_": "Le pape Léon XIV, lors d'une visite pastorale à Acerra (Italie), le 23 mai 2026.  ",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "FILIPPO MONTEFORTE/AFP",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "Le pape Léon XIV appelle à « désarmer l'intelligence artificielle », alors que « le pouvoir technologique prend un visage inédit »",
+          "pubDate": "Mon, 25 May 2026 11:30:04 +0200",
+          "updated": "Mon, 25 May 2026 14:53:53 +0200",
+          "description": "Dans sa première encyclique, intitulée « Magnifica humanitas », le pape alerte sur l'impact d'une technologie considérée comme un défi anthropologique à l'humanité, s'inscrivant de plain-pied dans les débats en cours sur l'utilisation de l'IA",
+          "guid": {
+            "_": "https://www.lemonde.fr/international/article/2026/05/25/le-pape-leon-xiv-appelle-a-desarmer-l-intelligence-artificielle_6693635_3210.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/international/article/2026/05/25/le-pape-leon-xiv-appelle-a-desarmer-l-intelligence-artificielle_6693635_3210.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/25/688/0/8256/4128/644/322/60/0/2abe119_ftp-1-ihgjxbp1hwm8-5139105-01-06.jpg"
+            },
+            "media:description": {
+              "_": "Le pape Léon XIV présente sa première encyclique, « Magnifica humanitas », au Vatican, le 25 mai 2026. ",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "ALBERTO PIZZOLI/AFP",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "L'affaire Hichem Aboud, cible présumée d'une tentative de meurtre, nouvelle ombre entre Paris et Alger",
+          "pubDate": "Mon, 25 May 2026 11:30:04 +0200",
+          "updated": "Mon, 25 May 2026 15:02:06 +0200",
+          "description": "La mise en examen de quatre personnes suspectées d'une tentative de meurtre à Roubaix, en février 2025, contre Hichem Aboud, un opposant au régime algérien, risque de compliquer la reprise du dialogue entre les deux pays.",
+          "guid": {
+            "_": "https://www.lemonde.fr/afrique/article/2026/05/25/l-affaire-hichem-aboud-nouvelle-ombre-entre-paris-et-alger_6693634_3212.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/afrique/article/2026/05/25/l-affaire-hichem-aboud-nouvelle-ombre-entre-paris-et-alger_6693634_3212.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/25/134/0/4076/2038/644/322/60/0/9557ff8_upload-1-jbiy6khebcol-000-nic6217285.jpg"
+            },
+            "media:description": {
+              "_": "Hichem Aboud, ancien agent des renseignements algériens, dans les locaux du journal « Jaridati », à Alger, le 19 mai 2013.",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "FAROUK BATICHE/AFP",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "L'Arabie saoudite accueille 1,5 million de musulmans qui entament leur pèlerinage à La Mecque, sur fond de tractations de paix",
+          "pubDate": "Mon, 25 May 2026 11:09:15 +0200",
+          "updated": "Mon, 25 May 2026 11:39:51 +0200",
+          "description": "Le hadj, l'un des cinq piliers de l'islam, est censé être accompli par tout musulman au moins une fois dans sa vie s'il en a les moyens. Cette année, il se déroule dans un contexte tendu, sur fond de guerre au Moyen-Orient et de négociations visant à y mettre fin.",
+          "guid": {
+            "_": "https://www.lemonde.fr/international/article/2026/05/25/l-arabie-saoudite-accueille-1-5-million-de-musulmans-qui-entament-leur-pelerinage-a-la-mecque-sur-fond-de-tractations-de-paix_6693633_3210.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/international/article/2026/05/25/l-arabie-saoudite-accueille-1-5-million-de-musulmans-qui-entament-leur-pelerinage-a-la-mecque-sur-fond-de-tractations-de-paix_6693633_3210.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/25/424/0/5088/2544/644/322/60/0/f3febc4_ftp-1-wx4nqnnibrgg-5137502-01-06.jpg"
+            },
+            "media:description": {
+              "_": "Des fidèles musulmans déambulent dans le complexe de la grande mosquée, sous les brumisateurs installés dans la ville sainte de La Mecque (Arabie saoudite), le 24 mai 2026.",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "ZAIN JAAFAR/AFP",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "En Iran, un homme présenté comme l'un des « meneurs » locaux des manifestations de janvier exécuté",
+          "pubDate": "Mon, 25 May 2026 10:58:47 +0200",
+          "updated": "Mon, 25 May 2026 11:27:51 +0200",
+          "description": "Depuis l'important mouvement de contestation qui a secoué l'Iran en janvier et le début de la guerre au Proche-Orient fin février, Téhéran a accru son recours aux condamnations à mort. La République islamique est le pays qui recourt le plus à la peine capitale après la Chine, d'après l'ONG Amnesty International.",
+          "guid": {
+            "_": "https://www.lemonde.fr/international/article/2026/05/25/en-iran-un-homme-execute-pour-son-role-dans-les-manifestations-de-janvier_6693631_3210.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/international/article/2026/05/25/en-iran-un-homme-execute-pour-son-role-dans-les-manifestations-de-janvier_6693631_3210.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/05/25/250/0/3000/1500/644/322/60/0/74b8345_upload-1-52zjydqt4o8x-000-926h9cq.jpg"
+            },
+            "media:description": {
+              "_": "Cette capture vidéo, réalisée le 9 janvier 2026 à partir d'images UGC partagées en ligne le 8 janvier 2026, lors d'une manifestation dans la capitale iranienne, Téhéran.",
+              "$": {
+                "type": "plain"
+              }
+            },
+            "media:credit": {
+              "_": "AFP",
+              "$": {
+                "scheme": "urn:ebu"
+              }
+            }
+          }
+        },
+        {
+          "title": "« Les Etats européens doivent affirmer qu'un être humain ne se verra jamais attribuer un statut inférieur au motif qu'il a migré »",
+          "pubDate": "Mon, 25 May 2026 10:30:07 +0200",
+          "updated": "Mon, 25 May 2026 14:21:10 +0200",
+          "description": "Le commissaire aux droits de l'homme du Conseil de l'Europe, Michael O'Flaherty, se réjouit, dans une tribune au « Monde », du compromis que représente la déclaration de Chisinau, signée le 15 mai par ses 46 Etats membres. Il s'inquiète néanmoins de voir, derrière cet apparent consensus, plusieurs gouvernements tenter d'imposer un récit qui instrumentalise la question migratoire en vue d'exercer une pression sur les juges.",
+          "guid": {
+            "_": "https://www.lemonde.fr/idees/article/2026/05/25/les-etats-europeens-doivent-affirmer-qu-un-etre-humain-ne-se-verra-jamais-attribuer-un-statut-inferieur-au-motif-qu-il-a-migre_6693627_3232.html",
+            "$": {
+              "isPermaLink": "true"
+            }
+          },
+          "link": "https://www.lemonde.fr/idees/article/2026/05/25/les-etats-europeens-doivent-affirmer-qu-un-etre-humain-ne-se-verra-jamais-attribuer-un-statut-inferieur-au-motif-qu-il-a-migre_6693627_3232.html",
+          "media:content": {
+            "$": {
+              "width": "644",
+              "height": "322",
+              "url": "https://img.lemde.fr/2026/02/25/125/0/1500/750/644/322/60/0/10f5d75_upload-1-vkh5yy2ntv4i-frame-835.jpg"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
