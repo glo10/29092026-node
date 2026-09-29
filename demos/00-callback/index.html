@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>Cas d'usage callback</p>
+        <ul>
+            <li>Evénements (click, input, keypress, mousein, mouseenter)</li>
+            <li>Timers (setTimeout, setIntervall)</li>
+        </ul>
+        <input type="text" placeholder="Saisissez quelque chose">
+        <div id="box">
+            <button>Cliquez-moi</button>
+        </div>
+    </div>
+    <script>
+        // DOM : Document Object Model = representation du html sous forme d'arbre en JS (objet document)
+        const input = document.querySelector('input')
+        const btn = document.querySelector('button')
+        if(input) {
+            const user = {
+                name: 'John',
+                age: 45
+            }
+            user.name = 'Alice' // affectation par référence sur un objet fait qu'on peut modifier les props
+            user = true
+            // Greffer un évenement change sur le champs
+            // evt objet qui caractérise l'événement qui a eu lieu
+            input.addEventListener('input', (evt) => { // callback anonyme
+                let isBool = true
+                console.log('this', this)
+                console.log('evt', evt)
+                console.log('value', evt.target.value)
+                console.log('isBool', isBool) // true
+            })
+
+        }
+
+        if(btn) {
+            btn.addEventListener('click', buttonCallback)
+        }
+
+        /**
+         * Callback nommée
+         */
+        function buttonCallback(evt) {
+            alert('Vous cliquez')
+            this.innerHTML = ''
+        }
+
+    </script>
+    <script>
+        console.log('depuis une autre balise script', btn, input)
+        console.log('isBool pas dispo', isBool)
+    </script>
+    <script>
+        class User {
+            #lastname;
+            #firstname;
+            #age;
+
+            constructor(lastname, firstname, age) {
+                this.lastname = lastname
+                this.firstname = firstname
+                this.age = age
+            }
+        }
+    </script>
+</body>
+</html>
