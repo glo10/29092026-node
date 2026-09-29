@@ -5,6 +5,7 @@
 npm init -y
 # -y permet de répondre yes à toutes les questions
 ```
+
 2. Installez les dépendances externes si nécessaire sur tous les environnements
 ```bash
 npm install nomDuPaquet
