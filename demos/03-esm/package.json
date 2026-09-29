@@ -1,0 +1,14 @@
+{
+  "name": "03-esm",
+  "version": "1.0.0",
+  "description": "- Autorise une nouvelle extension .mjs (m pour EcmaScript). Elle n'est pas obligatoire",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
