@@ -99,8 +99,9 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
 ### Testing
 
-- [node:test](https://nodejs.org/api/test.html#test-runner)
+- [node:test](https://nodejs.org/api/test.html#test-runner) et [node:assert](https://nodejs.org/api/assert.html) : librairies embarquées pour les tests unitaires
 - [Vitest](https://vitest.dev/guide/)  : tests unitaires et d'intégration
 - [Jest](https://jestjs.io/docs/getting-started) : tests unitaires et d'intégration
 - [Supertest](https://www.npmjs.com/package/supertest) : tests d'intégration
 - [Cypress](https://www.cypress.io/)  : tests fonctionnels (E2E)
+
