@@ -1,4 +1,4 @@
-import { readFile, writeFile, access } from "node:fs/promises";
+import { readFile, writeFile, access, constants } from "node:fs/promises";
 import { createInterface } from "node:readline/promises";
 const FILE_PATH = "users.json";
 
@@ -19,7 +19,7 @@ try {
   writeFile(`${singleUserFilename}.json`, JSON.stringify(newUser, null, 2))
   .catch(() => new Error('Impossible de créer le fichier json individuel'))
   try {
-    const c = await access(FILE_PATH);
+    await access(FILE_PATH, constants.R_OK);
     users = JSON.parse(await readFile(FILE_PATH, "utf-8"));
   } catch (err) {
     users = [];

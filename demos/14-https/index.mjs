@@ -7,6 +7,7 @@ const options = {
 };
 
 createServer(options, (_, res) => {
+  console.log('hello')
     res.end('OK')
 })
 .listen(8443)
