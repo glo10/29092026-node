@@ -1,0 +1,13 @@
+{
+  "name": "3.2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "description": "Exercise 3.2 readline"
+}

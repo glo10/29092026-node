@@ -1,0 +1,13 @@
+{
+  "name": "3.3",
+  "version": "1.0.0",
+  "description": "Exercise Web server with JSON",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
