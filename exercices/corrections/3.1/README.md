@@ -15,8 +15,8 @@ npm run bonus
 
 #### Transformation callback/promise vis-versa
 
-[cf. la demo avec callbackify](../../../demos/08-util/promise-to-cb.js)
-[cf. la demo avec promisify](../../../demos/08-util/cb-to-promise.js)
+- [cf. la demo avec callbackify](../../../demos/08-util/promise-to-cb.js)
+- [cf. la demo avec promisify](../../../demos/08-util/cb-to-promise.js)
 
 ---
 
