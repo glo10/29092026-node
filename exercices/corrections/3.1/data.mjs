@@ -1,0 +1,12 @@
+export const HTML = `<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lecture/écriture avec Node</title>
+</head>
+<body>
+  <h1>Module fs</h1>
+</body>
+</html>
+`;

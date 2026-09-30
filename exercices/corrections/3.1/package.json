@@ -1,0 +1,13 @@
+{
+  "name": "3.1",
+  "version": "1.0.0",
+  "description": "Exercise 3.1 read and write file",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node --watch index.mjs",
+    "bonus": "node --watch bonus.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
