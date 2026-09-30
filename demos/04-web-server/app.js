@@ -2,6 +2,7 @@
  * 1. Importer la méthode createServer depuis node:http ou http 
  * (avec prefixe node: non obligatoire mais marqueur pour voir qu'il s'agit d'un paquet embarquée de node et non une dep extérieure)
  * 2. Ecouter sur un port de votre choix (un port disponible et non reservé des ports > 1024)
+ *  Cet étape est effectué dans index.js après l'import de app
  * 3. Se rendre sur une page web pour voir le résultat
 */
 import { createServer } from 'node:http'
