@@ -1,0 +1,14 @@
+{
+  "name": "16-url",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "add:user": "curl -X POST http://localhost:4100/users -H \"Content-Type: application/json\" -d \"{\\\"id\\\":12,\\\"username\\\":\\\"JD\\\",\\\"name\\\":\\\"John\\\"}\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
