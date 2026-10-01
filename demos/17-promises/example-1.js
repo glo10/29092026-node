@@ -1,6 +1,6 @@
 /**
  * Une promesse (Promise) a 3 états
- *  - pending : à la création et au lancement (appel de la fonction)
+ *  - pending : au lancement (appel de la fonction)
  *  - fullfill : résolution de la promesse avec succès et exécution de la fonction resolve() de la callback
  *  - reject : résolution de la promesse a échoué et exécution de la fonction reject() de la callback
  * 
