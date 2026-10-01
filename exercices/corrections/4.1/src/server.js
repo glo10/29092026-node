@@ -1,0 +1,6 @@
+import app from './app.js'
+
+const { PORT } = process.env
+app.listen(PORT, () => {
+  console.info(`App running on http://localhost:${PORT}`)
+})

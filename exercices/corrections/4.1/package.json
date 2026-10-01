@@ -1,0 +1,16 @@
+{
+  "name": "4.1",
+  "version": "1.0.0",
+  "description": "Handle routes",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "add:user": "curl -X POST http://localhost:4100/users -H \"Content-Type: application/json\" -d \"{\\\"id\\\":15,\\\"username\\\":\\\"JD\\\",\\\"name\\\":\\\"John\\\"}\""
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
