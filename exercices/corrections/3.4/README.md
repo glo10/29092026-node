@@ -1,17 +1,20 @@
 # Correction exercice 3.4 : serveur web avec du *HTML*
 
-## Lancemen
+## Lancement
 
-1. Installer les dépendances
+1. Copier/coller et renommez .env.example en .env
+
+2. Installer les dépendances
 ```bash
 npm i
 ```
 
-2. Générer le certificat SSL
+3. Générer le certificat SSL
 ```bash
 npm run ssl
 ```
-3. Lancer le serveur
+
+4. Lancer le serveur
 ```bash
 npm run dev
 ```
