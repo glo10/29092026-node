@@ -1,0 +1,19 @@
+{
+  "name": "5.1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "SET DEBUG=5.1:* & npm start",
+    "dev:port": "SET DEBUG=5.1:* & SET PORT=8055 & npm start",
+    "dev:env": "node --env-file=.env --watch ./bin/www",
+    "start": "node --watch ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^6.0.1",
+    "express": "^4.22.2",
+    "http-errors": "~1.6.3",
+    "morgan": "^1.10.1"
+  }
+}
