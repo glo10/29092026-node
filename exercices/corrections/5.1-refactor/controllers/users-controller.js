@@ -12,8 +12,7 @@ function findAll(req, res) {
 }
 
 const findOne = async (req, res) => {
-  const login = req.params.login;
-  getOneUser(login)
+  getOneUser(req.login) // req.login a été ajoutée par le middleware 
   .then((user) => {
     res.render("users/single", { user });
   }).catch(() => {
