@@ -1,0 +1,18 @@
+{
+  "name": "22-mongodb-mongoose",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "mongodb": "node --watch mongodb.js",
+    "mongoose": "node --watch mongoose.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mongodb": "^7.7.0",
+    "mongoose": "^9.10.3"
+  }
+}
