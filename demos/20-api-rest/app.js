@@ -21,6 +21,11 @@ const docs = {
       method: "PUT",
       body: 'JSON example new data { "firstname" : "D" }',
     },
+    {
+      route: "/users/:id",
+      link: `http://localhost:${PORT}/users/:id`,
+      method: "DELETE"
+    },
   ],
 };
 

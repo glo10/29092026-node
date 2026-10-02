@@ -1,0 +1,21 @@
+{
+  "name": "e2e",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "SET DEBUG=25-e2e:* & node --watch ./bin/www",
+    "e2e": "cypress open"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.7",
+    "debug": "^4.4.3",
+    "express": "^5.2.1",
+    "http-errors": "^2.0.1",
+    "morgan": "^1.12.1",
+    "pug": "^3.0.4"
+  },
+  "devDependencies": {
+    "cypress": "^16.1.1"
+  }
+}

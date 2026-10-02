@@ -1,0 +1,20 @@
+{
+  "name": "6.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "dev": "node --watch --env-file=.env index.js",
+    "add:psg": "curl -X POST http://localhost:6100/teams -H \"Content-Type: application/json\" -d \"{\\\"name\\\":\\\"PSG\\\",\\\"country\\\":\\\"France\\\"}\"",
+    "find:all": "curl http://localhost:6100/teams"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.10.3"
+  }
+}

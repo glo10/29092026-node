@@ -2,7 +2,7 @@
 
 ## Lancement
 
-1. Copier/coller et renommez .env.example en .env
+1. Copier/coller et renommer .env.example en .env
 
 2. Installer les dépendances
 ```bash

@@ -2,6 +2,7 @@ import express from "express";
 import { dirname, resolve } from "node:path";
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
+import { checkId, validateTeam } from "../middlewares/team-middleware.js";
 const teamsRouter = express.Router(); // Création du router
 const filename = resolve(
   dirname(fileURLToPath(import.meta.url)),
@@ -9,14 +10,6 @@ const filename = resolve(
   "data",
   "teams.json",
 );
-// Middleware pour vérifier que l'id est un entier
-teamsRouter.param("id", (req, res, next) => {
-  const id = req.params.id;
-  if (!/\d+/.test(id)) {
-    res.status(400).send({ success: false, message: `${id} must be a number` });
-  }
-  next();
-});
 
 teamsRouter.get("/", (req, res) => {
   readFile(filename)
@@ -24,10 +17,10 @@ teamsRouter.get("/", (req, res) => {
     .catch(() => []) // une promesse qui retourne un tableau vide
     .then((teams) => {
       res.status(200).json(teams);
-    })
+    });
 });
 
-teamsRouter.get("/:id", (req, res) => {
+teamsRouter.get("/:id", checkId, (req, res) => {
   const { id } = req.params;
   readFile(filename)
     .then((content) => JSON.parse(content))
@@ -45,40 +38,31 @@ teamsRouter.get("/:id", (req, res) => {
     );
 });
 
-teamsRouter.post("/", async (req, res) => {
+teamsRouter.post("/", checkId, validateTeam, async (req, res) => {
   // Attention ici au niveau sécurité c'est light, il faudrait ajouter un middleware pour vérifier les données envoyées
-  const team = req.body;
-  const { id, name } = team;
-  if (id && name) {
-    let teams = []
-    try {
-      teams = await readFile(filename).then((content) => JSON.parse(content.toString()))
-    } catch(error) {
-
-    }
-    teams.push(team);
-    writeFile(filename, JSON.stringify(teams, null, 2))
-      .then(() => {
-        res.status(201).json({ message: "Team created", success: true });
-      })
-      .catch(() => {
-        res
-          .status(500)
-          .json({ message: "Contact-us please support@", success: false });
-      });
-  } else {
-    res
-      .status(400)
-      .json({
-        message: "new team should have an id and a name",
-        success: false,
-      });
-  }
+  const { team } = req;
+  let teams = [];
+  try {
+    teams = await readFile(filename).then((content) =>
+      JSON.parse(content.toString()),
+    );
+  } catch (error) {}
+  teams.push(team);
+  writeFile(filename, JSON.stringify(teams, null, 2))
+    .then(() => {
+      res.status(201).json({ message: "Team created", success: true });
+    })
+    .catch(() => {
+      res
+        .status(500)
+        .json({ message: "Contact-us please support@", success: false });
+    });
 });
 
+// TODO ajouter les middlewares checkId et validateTeam et refactoriser la réponse en conséquence
 teamsRouter.put("/:id", async (req, res) => {
   const { id } = req.params;
-  const {name, country} = req.body;
+  const { name, country } = req.body;
 
   if (!name || !country) {
     return res.status(400).json({

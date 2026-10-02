@@ -9,4 +9,5 @@ export function sum(...args) {
 
 export function divide(n1, n2) {
     if(parseInt(n2) === 0) throw new Error('Division par zero impossible')
+    else return n1 / n2
 }

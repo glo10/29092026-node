@@ -16,9 +16,9 @@ npm run dev
 
 <!-- AUTO-GENERATED -->
 
-### exercices/corrections/5.1
+### exercices/corrections/5.1-refactor
 
-#### `exercices/corrections/5.1/app.js`
+#### `exercices/corrections/5.1-refactor/app.js`
 
 ```javascript
 const createError = require('http-errors');
@@ -75,7 +75,72 @@ module.exports = app;
 
 ```
 
-#### `exercices/corrections/5.1/package.json`
+#### `exercices/corrections/5.1-refactor/controllers/users-controller.js`
+
+```javascript
+const { getAllUsers, getOneUser } = require("../models/user-model");
+
+function findAll(req, res) {
+  // Appeler le model
+  getAllUsers()
+  .then((users) => {
+    // Envoyer les données recup dans le model à la vue
+    res.render("users/list", { users });
+  }).catch(() => {
+    throw new Error('Pb serveur pour recup users')
+  });
+}
+
+const findOne = async (req, res) => {
+  getOneUser(req.login) // req.login a été ajoutée par le middleware 
+  .then((user) => {
+    res.render("users/single", { user });
+  }).catch(() => {
+    throw new Error(`Impossible de recup user avec le login ${login}`)
+  });
+};
+
+module.exports = {
+  findAll,
+  findOne,
+};
+
+```
+
+#### `exercices/corrections/5.1-refactor/middlewares/users-middleware.js`
+
+```javascript
+const getParamLoginMiddleware = (req, res, next) => {
+    req.login = req.params.login
+    next()
+}
+
+module.exports = {
+    getParamLoginMiddleware
+}
+```
+
+#### `exercices/corrections/5.1-refactor/models/user-model.js`
+
+```javascript
+async function getAllUsers() {
+  return fetch("https://api.github.com/users").then((res) => res.json());
+}
+
+async function getOneUser(login) {
+  return fetch(`https://api.github.com/users/${login}`).then((data) =>
+    data.json(),
+  );
+}
+
+module.exports = {
+  getAllUsers,
+  getOneUser,
+};
+
+```
+
+#### `exercices/corrections/5.1-refactor/package.json`
 
 ```json
 {
@@ -100,7 +165,7 @@ module.exports = app;
 
 ```
 
-#### `exercices/corrections/5.1/public/stylesheets/style.css`
+#### `exercices/corrections/5.1-refactor/public/stylesheets/style.css`
 
 ```css
 body {
@@ -114,7 +179,7 @@ a {
 
 ```
 
-#### `exercices/corrections/5.1/routes/index.js`
+#### `exercices/corrections/5.1-refactor/routes/index.js`
 
 ```javascript
 var express = require('express');
@@ -129,41 +194,17 @@ module.exports = router;
 
 ```
 
-#### `exercices/corrections/5.1/routes/users.js`
+#### `exercices/corrections/5.1-refactor/routes/users.js`
 
 ```javascript
 const express = require("express");
+const { findAll, findOne } = require("../controllers/users-controller");
+const { getParamLoginMiddleware } = require("../middlewares/users-middleware");
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  fetch("https://api.github.com/users")
-    .then((res) => res.json())
-    .then((users) => {
-      res.render("users/list", { users });
-    })
-    .catch(() =>
-      /**
-       * On peut ici juste déclencher une erreur avec throw new Error('Aucun utilistateur')
-       * Cet erreur sera interceptée par Express qui va retourner au client la page d'erreur
-       * cf. implémentation suivante router.get(':login')
-       */
-      res.render("error", { message: "Aucun utilisateur", status: 500 }),
-    );
-});
-
+router.get("/", findAll);
 // match avec GET /users/:login avec login dynamique
-router.get("/:login", async (req, res) => {
-  const login = req.params.login;
-  const user = await fetch(`https://api.github.com/users/${login}`).then(
-    (data) => data.json(),
-  );
-  if(user) {
-    res.render("users/single", { user });
-    return
-  } else {
-    throw new Error('login incorrect')
-  }
-});
+router.get("/:login", getParamLoginMiddleware,  findOne);
 
 module.exports = router;
 
